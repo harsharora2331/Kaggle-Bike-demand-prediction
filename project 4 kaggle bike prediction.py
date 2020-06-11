@@ -224,4 +224,5 @@ for i in range(0,len(y_test_e)):
     
 rmsle=math.sqrt(log_sq_sum/len(y_test))
 print(rmsle)
+plt.show()
     
